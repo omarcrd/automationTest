@@ -16,7 +16,7 @@ public class Constants {
 	 * Define file path names
 	 */
 
-	public static String test_data_file_path = "C:\\Users\\Administrator\\SeleniumWorkspace\\SatWic\\TestData\\";
+	public static String test_data_file_path = "C:\\Users\\Administrator\\git\\automationTest\\SatWic\\TestData\\";
 	
 	//C:\Users\Administrator\SeleniumWorkspace\SatWic\TestData
 	public static String test_data_file_epadmTest = "SatwicTestData.xls";
@@ -37,7 +37,7 @@ public class Constants {
 	public static String browser = "Browser Instance";
 	public static String test_url = "URL Site";
 	
-	public static String test_report_path = "C:\\Users\\Administrator\\SeleniumWorkspace\\SatWic\\HTMLReport\\";
+	public static String test_report_path = "C:\\Users\\Administrator\\git\\automationTest\\SatWic\\HTMLReport\\";
 	
 	public static String test_report_name = "TestReport.html";
 

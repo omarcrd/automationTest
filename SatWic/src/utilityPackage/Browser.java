@@ -58,7 +58,7 @@ public class Browser {
 			}else if(matchBrowser.equalsIgnoreCase("ie")){
 				
 				//This portion of code will open the Internet Explorer Driver and pass the Test URL to the browser	
-				System.setProperty("webdriver.ie.driver", "C:\\Users\\Administrator\\SeleniumWorkspace\\Satwic\\Drivers\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver", "C:\\Users\\Administrator\\git\\automationTest\\Satwic\\Drivers\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 				try{
 					driver.get(setURL);
@@ -74,7 +74,7 @@ public class Browser {
 				
 			}else if(matchBrowser.equalsIgnoreCase("googleChrome")){
 				//This portion of code will open Google Chrome Driver and pass the Test URL to the browser	
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\SeleniumWorkspace\\Satwic\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\git\\automationTest\\Satwic\\Drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				try{
