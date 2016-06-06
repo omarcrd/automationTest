@@ -38,6 +38,7 @@ public class TestSuiteOne {
 	  System.out.println("Execution of " + testCaseName + " for iteration " + ReadDataFile.testIndex);
 	  MiddleMenu.clickDondeHospedarse();
 	  HomePageBottomLinks.clickHorariosPaquetes();
+	  HomePageBottomLinks.clicPeliculas();
 
   }
   @Test

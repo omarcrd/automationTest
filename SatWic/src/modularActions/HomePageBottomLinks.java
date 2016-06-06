@@ -51,7 +51,19 @@ public class HomePageBottomLinks {
 		}
 		catch(NoSuchElementException noE){
 			
+			
 		}
+	}
+	
+	public static void clicPeliculas(){
+		try{
+			Browser.driver.findElement(By.xpath("//*[@id='goc-desktop-global']/li[3]/a/u")).click();
+			HTMLReport.testLog.log(LogStatus.PASS, "Click Peliculas");
+		}
+		catch(NoSuchElementException noE){
+			System.out.println("The element was not found due to: " + noE.getMessage());
+		}
+
 	}
 
 }

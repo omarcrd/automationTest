@@ -35,7 +35,7 @@ public class Browser {
 			String matchBrowser = browser;
 			String setURL = test_url;
 			
-			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);b
 			/*
 			 * Following piece of code is to instantiate the Firefox browser
 			 */
