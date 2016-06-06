@@ -23,7 +23,7 @@ public class TestSuiteOne {
 	private String testCaseName = null;
 	public String testDescription;
 	
-  @Test
+  @Test(enabled = true)//this is the change for fixOne Branch
   public void test1() {
 	  System.out.println("Execution of " + testCaseName + " for iteration " + ReadDataFile.testIndex);
 	  HomePageBottomLinks.clickParqueDisneyland();
