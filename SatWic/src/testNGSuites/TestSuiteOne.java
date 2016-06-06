@@ -33,7 +33,7 @@ public class TestSuiteOne {
 	  HomePageBottomLinks.clickCentroAyuda();
 	  
   }
-  @Test
+  @Test(enabled = false)//this is a change for fixTwo branch
   public void test2(){
 	  System.out.println("Execution of " + testCaseName + " for iteration " + ReadDataFile.testIndex);
 	  MiddleMenu.clickDondeHospedarse();
