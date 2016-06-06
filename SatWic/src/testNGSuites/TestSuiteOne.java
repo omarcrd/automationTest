@@ -41,7 +41,7 @@ public class TestSuiteOne {
 	  HomePageBottomLinks.clicPeliculas();
 
   }
-  @Test
+  @Test(enabled = false)//thsi is a change in fixThree branch
   public void test3(){
 	  System.out.println("Execution of " + testCaseName + " for iteration " + ReadDataFile.testIndex);
 	  MiddleMenu.clickDondeHospedarse();
