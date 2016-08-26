@@ -98,7 +98,7 @@ public class Browser {
 		 */
 		public static void tearDown() throws InterruptedException{
 			//wait for around 2 seconds before close the browser session
-			//Thread.sleep(2000);//this sleep is no longer need
+			Thread.sleep(2000);//I think this line is really needed
 			//In a real test this line can be removed
 			HTMLReport.testLog.log(LogStatus.INFO, "Close Browser", "Shut down the webdriver instance and close the browser window");
 			//shutdown the web driver instance and close all browser windows
