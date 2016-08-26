@@ -4,6 +4,8 @@
 package utilityPackage;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -35,7 +37,7 @@ public class Browser {
 			String matchBrowser = browser;
 			String setURL = test_url;
 			
-			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);b
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			/*
 			 * Following piece of code is to instantiate the Firefox browser
 			 */
